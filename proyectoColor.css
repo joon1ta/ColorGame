@@ -1,0 +1,64 @@
+.square {
+    float: left;
+    height: 0%;
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: grey;
+    margin: 1%;
+    transition: ease .3s;
+    border-radius: 20%;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #232323
+}
+
+#message {
+    color: black;
+    display: inline-block;
+    width: 15%;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    color: #232323;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: inherit;
+    height: 100%;
+    background-color: inherit;
+}
+
+
+/* .selected{
+    background-color: brown;
+} */
+
+button:hover {
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+}
+
+#stripe {
+    background-color: coral;
+    height: 50px;
+    text-align: center;
+}
